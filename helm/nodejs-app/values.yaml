@@ -1,0 +1,16 @@
+replicaCount: 3
+
+image:
+  repository: saijathin/nodejs-app
+  pullPolicy: IfNotPresent
+  tag: "12219434157"
+
+service:
+  type: NodePort
+  port: 80
+
+ingress:
+  enabled: false
+  # You can configure ingress rules here if needed
+
+resources: {}
