@@ -3,7 +3,7 @@ replicaCount: 3
 image:
   repository: saijathin/nodejs-app
   pullPolicy: IfNotPresent
-  tag: "12219434157"
+  tag: "12743952884"
 
 service:
   type: NodePort
